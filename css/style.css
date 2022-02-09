@@ -1,0 +1,6 @@
+.container-fluid, .container{
+    border: 2px solid black;
+}
+.row{
+    border: 2px solid purple;
+}

@@ -4,3 +4,6 @@
 .row{
     border: 2px solid purple;
 }
+.col, .col-md {
+    border: 2px solid rgb(58, 146, 8);
+}

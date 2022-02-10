@@ -7,3 +7,13 @@
 .col, .col-md {
     border: 2px solid rgb(58, 146, 8);
 }
+
+.border{
+    border: 2px solid rgb(58, 146, 8);
+}
+.border2{
+    border: 2px solid rgb(1, 78, 65);
+}
+.border3{
+    border: 2px solid rgb(255, 20, 216);
+}

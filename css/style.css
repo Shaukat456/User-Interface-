@@ -1,4 +1,4 @@
-.container-fluid, .contaier{
+.container-fluids, .contaier{
     border: 2px solid black;
 }
 .rowa{
@@ -19,4 +19,13 @@
 }
 .navbar a {
     text-decoration: none;
+}
+.footerColor{
+    background-color: #6610f2;
+    
+}
+
+.webColor{
+    background-color: #884ce9;
+
 }

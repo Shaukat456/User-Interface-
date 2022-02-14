@@ -1,0 +1,51 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  background-color: #884ce9;
+    transition: all .5s ease-in ;
+}
+
+.container-fluids, .contaier{
+    border: 2px solid black;
+}
+.rowa{
+    border: 2px solid purple;
+}
+.cola, .col-mda {
+    border: 2px solid rgb(58, 146, 8);
+}
+
+.border{
+    border: 2px solid rgb(58, 146, 8);
+}
+.border2{
+    border: 2px solid rgb(1, 78, 65);
+}
+.border3{
+    border: 2px solid rgb(255, 20, 216);
+}
+.navbar a {
+    text-decoration: none;
+}
+.footerColor{
+    background-color: #6610f2;
+    
+}
+
+.webColor{
+    background-color: #884ce9;
+
+}
+.un_underline{
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    
+    /* color: w; */
+}
+.un_underline:hover{
+    color: rgb(255, 248, 248);
+}

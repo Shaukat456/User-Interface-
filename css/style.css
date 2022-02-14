@@ -40,3 +40,12 @@ body{
     background-color: #884ce9;
 
 }
+.un_underline{
+    text-decoration: none;
+    color: rgb(211, 211, 211);
+    
+    /* color: w; */
+}
+.un_underline:hover{
+    color: rgb(255, 248, 248);
+}

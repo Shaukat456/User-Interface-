@@ -49,3 +49,46 @@ body{
 .un_underline:hover{
     color: rgb(255, 248, 248);
 } */ 
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #232555;
+   
+}
+::selection{
+    /* background-color: #185815; */
+    color: aliceblue;
+}
+
+.hero{
+    /* font-family: 'Abril Fatface', cursive; */
+/* font-family: 'Aclonica', sans-serif; */
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.hero::first-letter{
+    color: #2a7e1a;
+    font-size: 1.4em;
+    animation: ss 1s ease infinite ;
+    /* transition: all .5s ease; */
+}
+
+@keyframes ss {
+    from{
+        transform: skew(360deg);
+    }
+    to{
+        transform: skew(0deg);
+
+    }
+}
+
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+    transform: scale(1.1);
+}

@@ -60,14 +60,14 @@ body{
 }
 ::selection{
     /* background-color: #185815; */
-    color: aliceblue;
+    color: rgb(39, 143, 29);
 }
 
 .hero{
-    /* font-family: 'Abril Fatface', cursive; */
-    font-size: 6em;
-/* font-family: 'Aclonica', sans-serif; */
-font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Abril Fatface', cursive;
+    /* font-family: 'Aclonica', sans-serif; */
+    font-size: 8em;
+/* font-family: 'Yanone Kaffeesatz', sans-serif; */
 }
 
 .hero::first-letter{
@@ -78,10 +78,10 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 @keyframes ss {
-    from{
+    50%{
         transform: skew(360deg);
     }
-    to{
+    100%{
         transform: skew(0deg);
 
     }
@@ -111,4 +111,21 @@ button:hover{
 .anyhover{
     transition: all .5s ease;
     transform: scale(1.1);
+}
+.au{
+    border-radius: 10%;
+}
+.team{
+    /* font-family: 'Abril Fatface', cursive;  */
+     font-family: 'Aclonica', sans-serif;
+     /* padding: 5%; */
+}
+
+footer{
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.prg{
+    border-top: 2px solid  #212529;
 }

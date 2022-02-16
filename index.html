@@ -8,6 +8,8 @@
     
 <!--    Adding CDN LINKS FOR PRODUCTION  -->
 
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Bebas+Neue&family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -23,12 +25,12 @@
                     SCIDEP
                 </div>
                
-                    <ul class="navbar-nav d-flex flex-column ">
+                    <ul class="navbar-nav d-flex flex-column navtext">
                         <li class="nav-link " >
-                            <a href="#hero"class='text-light  active' activeClassName='active' > HOME </a>
-                            <a href="#progress" class="text-light   " activeClassName='active'> PROGRESS </a>
-                            <a href="#aboutus"class="text-light   "activeClassName='active' > ABOUT US </a>
-                            <a href="#contactus"class="text-light   " activeClassName='active'> CONTACT </a>
+                            <a href="#hero"class='text-light active m-2' activeClassName='active' > HOME </a>
+                            <a href="#progress" class="text-light  m-2 " activeClassName='active'> PROGRESS </a>
+                            <a href="#aboutus"class="text-light  m-2 "activeClassName='active' > ABOUT US </a>
+                            <a href="#contactus"class="text-light  m-2 " activeClassName='active'> CONTACT </a>
                         </li>
                     </ul>
 
@@ -38,19 +40,19 @@
     <!-- Body -->
 
     <!-- HERO -->
-    <div class="container heroback ">
+    <div class="container heroback  ">
        
         <div class="row  my-5 p-5 h-5 text-center  ">
             <div class="col-12 d-md-flex  my-5 p-5 h-5 ">
                 <div class=" col-md-6  text-center">
                         <div class="hero display-1 text-light text-center">
-                            <strong >  S</strong>CIDEP  
+                            SCIDEP  
                                     
                                     
                         </div>
                 </div>
 
-                <div class="col-md-6 ">
+                <div class="col-md-6    ">
                         <div class="display-5 ">
                             <p class="text-light"> ASPIRING C & C++ Coders</p>
                             <button class="btn btn-success"> 
@@ -67,41 +69,37 @@
                 
             </div>
 
-            <div class="container bg-light text-dark au">
+            <div class="container bg-light text-dark au ">
 
             <div class="display-1 text-dark ideology"  >
-                OUR <strong>IDEOLOGY</strong>
-                <figure>
-                    <img class="img-fluid" src="./C++.png" alt="">
-                </figure>
+                OUR <strong>  IDEOLOGY</strong>
+                <!-- <figure> -->
+                    <img class="img-fluid" src="./C++.png" alt="asda">
+                <!-- </figure> -->
             </div>
 
             
-            <!-- SOMETHING ABOUT SCI DEV -->
+          
 
-            <div class="row text-dark my-5 ">
-                <H1 class="display-1     prg " id="aboutus">ABOUT US</H1>
-                <div class="col d-md-flex  my-3 ">
-                   
-                   <p class=" text-dark text-center display-5 p-5 m-2 team">A team of aspiring computer engineers looking forward to contribute to C / C++ code of our fellow mates to yield the precise algorithm required.
-                       Currently Exploring multiple Libaries of C as well as C++.
-                   </p>
-                  
-                </div>
-            </div>
+            
 
             <!-- Github Repo Link -->
 
-            <div class="container-fluid pointer text-light text-center  " id='progress'>
+            <div class="container pointer text-light text-center py-5 my-2  " id='progress'>
 
-                <h1 class="display-3 d-md-flex prg   text-dark"> OUR PROGRESS</h1>
+                <h1 class="display-3 d-md-flex prg   text-center text-dark"> OUR PROGRESS</h1>
 
-                <div class="card-deck  my-5 ">
+                <!-- <P class="navtext1 text-dark " > Visit GITHUB</P> -->
+                <h1 class='text-dark navtext1'> LIVE <strong>REPOSITORIES</strong> </h1>
+
+                
+                <div class="col-12">
+                <div class="card-deck  my-5 d-md-flex   ">
                     <div class="card ">
                   <img class="card-img-top  rounded mx-auto d-block  "  src="./scie.PNG" alt="Card image cap">
                   <div class="card-body bg-dark text-light p-5">
                       <h5 class="card-title bg-dark text-light display-3  "> C++  </h5>
-                      <p class="card-text display-5 text-success team "> OUR C++ PRACTICE PRACTICE PROGRAMS .</p>
+                      <p class="card-text text-success team "> OUR C++ PRACTICE PRACTICE PROGRAMS .</p>
                       <a href=""> 
                           <button class="btn-success bg-dark ">
                               CHECK OUT
@@ -109,15 +107,11 @@
                       <!-- <p class="card-text"><small class="text-muted">  </small></p> -->
                     </div>
                 </div>
-
-                <h1 class="display-3"></h1>
-
-                <div class="card-deck  my-5 ">
                     <div class="card ">
-                  <img class="card-img-top  "  src="./scie.PNG" alt="Card image cap">
+                  <img class="card-img-top  rounded mx-auto d-block  "  src="./scie.PNG" alt="Card image cap">
                   <div class="card-body bg-dark text-light p-5">
-                      <h5 class="card-title bg-dark text-light display-3 font-  bolder "> C++  </h5>
-                      <p class="card-text display-5 text-success team "> OUR C++ PRACTICE PRACTICE PROGRAMS .</p>
+                      <h5 class="card-title bg-dark text-light display-3  "> C  </h5>
+                      <p class="card-text text-success team "> OUR C PRACTICE PRACTICE PROGRAMS .</p>
                       <a href=""> 
                           <button class="btn-success bg-dark ">
                               CHECK OUT
@@ -125,18 +119,43 @@
                       <!-- <p class="card-text"><small class="text-muted">  </small></p> -->
                     </div>
                 </div>
-               
-             
-              
-          
-            </div>
+                    <div class="card ">
+                  <img class="card-img-top  rounded mx-auto d-block  "  src="./scie.PNG" alt="Card image cap">
+                  <div class="card-body bg-dark text-light p-5">
+                      <h5 class="card-title bg-dark text-light display-3  "> JS  </h5>
+                      <p class="card-text text-success team "> OUR JS PRACTICE PRACTICE PROGRAMS .</p>
+                      <a href=""> 
+                          <button class="btn-success bg-dark ">
+                              CHECK OUT
+                          </button> </a>
+                      <!-- <p class="card-text"><small class="text-muted">  </small></p> -->
+                    </div>
+                </div>
+
+                <!-- <h1 class="display-3"> </h1> -->
+
+            
+            
+
         </div>
 
-
+        <div class="row text-dark my-5 ">
+          <H1 class="display-1 text-center     prg " id="aboutus">ABOUT US</H1>
+          <div class="col d-md-flex  my-3 ">
+             
+             <p class=" text-dark text-center display-5 p-5 m-2 team navtext1">A team of aspiring computer engineers looking forward to contribute to C / C++ code of our fellow mates to yield the precise algorithm required.
+                 Currently Exploring multiple Libaries of C as well as C++.
+             </p>
+            
+          </div>
+      </div>
 
 
             
         </div>
+
+      </div>
+
     </div>
 </div>
     
@@ -170,7 +189,7 @@
 
     </div>
 
-    <hr class="rgba-white-light" style="margin: 0 15%;">
+    <hr class="rgba-dark-light" style="margin: 0 15%;">
 
  
     <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
@@ -198,7 +217,7 @@
 
           <!-- Facebook -->
           <a class="fb-ic">
-            <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
+            <i class="fab fa-facebook-f fa-lg white-text mr-4">  </i>
           </a>
           <!-- Twitter -->
           <a class="tw-ic">
